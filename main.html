@@ -7,8 +7,25 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<form method="post">
+		<div>
+			<label for="name">Name</label>
+			<input type="text" id="name" required>
+		</div>
+		<div>
+			<label for="portfolio">webpage url</label>
+			<input type="url" id="portfolio" required>
+		</div>
+		<div>
+			<label for="favColor">favColor</label>
+			<input type="color" id="favColor" required>
+		</div>
+		<div>
+			<label for="likeness">how much like ur color</label>
+	        <input type="range" min="1" max="100" id="likeness" required>
+		</div>
+		
+	</form>
 </script>
 
 </body>
